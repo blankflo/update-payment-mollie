@@ -1,12 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use  Hash;
 use App\Models\User;
 use Laravel\Cashier\FirstPayment\Actions\AddBalance;
-use Laravel\Cashier\FirstPayment\Actions\AddGenericOrderItem;
 use Laravel\Cashier\FirstPayment\FirstPaymentBuilder;
 use Money\Money;
 
